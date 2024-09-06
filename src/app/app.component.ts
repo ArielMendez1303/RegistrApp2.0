@@ -8,3 +8,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
   constructor() {}
 }
+
+@Component({
+  selector: 'app-login',
+  templateUrl: 'logion.page.html',
+  styleUrls: ['login.page.scss'],
+})
+export class HomePage {
+  nombre: string = '';
+
+  
+}

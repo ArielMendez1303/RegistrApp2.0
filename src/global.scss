@@ -48,3 +48,9 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1320px
 );
+
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
